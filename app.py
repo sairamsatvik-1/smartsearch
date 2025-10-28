@@ -10,6 +10,7 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 import nltk_setup
+import nltk
 
 import yake 
 bs4.BeautifulSoup.DEFAULT_PARSER = "lxml"
