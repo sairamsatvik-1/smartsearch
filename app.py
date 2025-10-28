@@ -9,7 +9,8 @@ import difflib
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
-import nltk
+import nltk_setup
+
 import yake 
 bs4.BeautifulSoup.DEFAULT_PARSER = "lxml"
 st.set_page_config(page_title="SmartSearch AI", page_icon="🌍", layout="wide")
